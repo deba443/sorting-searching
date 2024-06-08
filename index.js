@@ -43,9 +43,20 @@
 // console.log(binarySearch(arr, 10));
 // console.log(count);
 
-
 //Recursive BinarySearch
+// let arr = [-5, 2, 4, 6, 10, 12, 14, 16];
+// function recurSiveBinarySearch(startIndex, lastIndex, arr, target) {
+//   let mid = ((startIndex + lastIndex) / 2) | 0;
+//   if (startIndex > lastIndex) {
+//     return -1;
+//   } else if (arr[mid] === target) {
+//     return mid;
+//   } else if (arr[mid] < target) {
+//     startIndex = mid + 1;
+//   } else {
+//     lastIndex = mid - 1;
+//   }
+//   return recurSiveBinarySearch(startIndex, lastIndex, arr, target);
+// }
+// console.log(recurSiveBinarySearch(0, arr.length - 1, arr, 30));
 
-function recurSiveBinarySearch(arr,target){
-    
-}
